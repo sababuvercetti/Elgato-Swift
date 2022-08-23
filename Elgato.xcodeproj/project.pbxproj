@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2CB794528B4C2A0005251A3 /* ElgatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB794428B4C2A0005251A3 /* ElgatoApp.swift */; };
+		A2CB794728B4C2A0005251A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB794628B4C2A0005251A3 /* ContentView.swift */; };
+		A2CB794928B4C2A3005251A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CB794828B4C2A3005251A3 /* Assets.xcassets */; };
+		A2CB794C28B4C2A3005251A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CB794B28B4C2A3005251A3 /* Preview Assets.xcassets */; };
+		A2CB795628B4C2A3005251A3 /* ElgatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB795528B4C2A3005251A3 /* ElgatoTests.swift */; };
+		A2CB796028B4C2A3005251A3 /* ElgatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB795F28B4C2A3005251A3 /* ElgatoUITests.swift */; };
+		A2CB796228B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CB795228B4C2A3005251A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB793928B4C2A0005251A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CB794028B4C2A0005251A3;
+			remoteInfo = Elgato;
+		};
+		A2CB795C28B4C2A3005251A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB793928B4C2A0005251A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CB794028B4C2A0005251A3;
+			remoteInfo = Elgato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2CB794128B4C2A0005251A3 /* Elgato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elgato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CB794428B4C2A0005251A3 /* ElgatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoApp.swift; sourceTree = "<group>"; };
+		A2CB794628B4C2A0005251A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2CB794828B4C2A3005251A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CB794B28B4C2A3005251A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2CB795128B4C2A3005251A3 /* ElgatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElgatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CB795528B4C2A3005251A3 /* ElgatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoTests.swift; sourceTree = "<group>"; };
+		A2CB795B28B4C2A3005251A3 /* ElgatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElgatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CB795F28B4C2A3005251A3 /* ElgatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoUITests.swift; sourceTree = "<group>"; };
+		A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CB793E28B4C2A0005251A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB794E28B4C2A3005251A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB795828B4C2A3005251A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2CB793828B4C2A0005251A3 = {
+			isa = PBXGroup;
+			children = (
+				A2CB794328B4C2A0005251A3 /* Elgato */,
+				A2CB795428B4C2A3005251A3 /* ElgatoTests */,
+				A2CB795E28B4C2A3005251A3 /* ElgatoUITests */,
+				A2CB794228B4C2A0005251A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CB794228B4C2A0005251A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB794128B4C2A0005251A3 /* Elgato.app */,
+				A2CB795128B4C2A3005251A3 /* ElgatoTests.xctest */,
+				A2CB795B28B4C2A3005251A3 /* ElgatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CB794328B4C2A0005251A3 /* Elgato */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB794428B4C2A0005251A3 /* ElgatoApp.swift */,
+				A2CB794628B4C2A0005251A3 /* ContentView.swift */,
+				A2CB794828B4C2A3005251A3 /* Assets.xcassets */,
+				A2CB794A28B4C2A3005251A3 /* Preview Content */,
+			);
+			path = Elgato;
+			sourceTree = "<group>";
+		};
+		A2CB794A28B4C2A3005251A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB794B28B4C2A3005251A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2CB795428B4C2A3005251A3 /* ElgatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB795528B4C2A3005251A3 /* ElgatoTests.swift */,
+			);
+			path = ElgatoTests;
+			sourceTree = "<group>";
+		};
+		A2CB795E28B4C2A3005251A3 /* ElgatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB795F28B4C2A3005251A3 /* ElgatoUITests.swift */,
+				A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */,
+			);
+			path = ElgatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CB794028B4C2A0005251A3 /* Elgato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CB796528B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "Elgato" */;
+			buildPhases = (
+				A2CB793D28B4C2A0005251A3 /* Sources */,
+				A2CB793E28B4C2A0005251A3 /* Frameworks */,
+				A2CB793F28B4C2A0005251A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elgato;
+			productName = Elgato;
+			productReference = A2CB794128B4C2A0005251A3 /* Elgato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2CB795028B4C2A3005251A3 /* ElgatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CB796828B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "ElgatoTests" */;
+			buildPhases = (
+				A2CB794D28B4C2A3005251A3 /* Sources */,
+				A2CB794E28B4C2A3005251A3 /* Frameworks */,
+				A2CB794F28B4C2A3005251A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CB795328B4C2A3005251A3 /* PBXTargetDependency */,
+			);
+			name = ElgatoTests;
+			productName = ElgatoTests;
+			productReference = A2CB795128B4C2A3005251A3 /* ElgatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2CB795A28B4C2A3005251A3 /* ElgatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CB796B28B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "ElgatoUITests" */;
+			buildPhases = (
+				A2CB795728B4C2A3005251A3 /* Sources */,
+				A2CB795828B4C2A3005251A3 /* Frameworks */,
+				A2CB795928B4C2A3005251A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CB795D28B4C2A3005251A3 /* PBXTargetDependency */,
+			);
+			name = ElgatoUITests;
+			productName = ElgatoUITests;
+			productReference = A2CB795B28B4C2A3005251A3 /* ElgatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CB793928B4C2A0005251A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A2CB794028B4C2A0005251A3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A2CB795028B4C2A3005251A3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A2CB794028B4C2A0005251A3;
+					};
+					A2CB795A28B4C2A3005251A3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A2CB794028B4C2A0005251A3;
+					};
+				};
+			};
+			buildConfigurationList = A2CB793C28B4C2A0005251A3 /* Build configuration list for PBXProject "Elgato" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CB793828B4C2A0005251A3;
+			productRefGroup = A2CB794228B4C2A0005251A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CB794028B4C2A0005251A3 /* Elgato */,
+				A2CB795028B4C2A3005251A3 /* ElgatoTests */,
+				A2CB795A28B4C2A3005251A3 /* ElgatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CB793F28B4C2A0005251A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB794C28B4C2A3005251A3 /* Preview Assets.xcassets in Resources */,
+				A2CB794928B4C2A3005251A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB794F28B4C2A3005251A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB795928B4C2A3005251A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CB793D28B4C2A0005251A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB794728B4C2A0005251A3 /* ContentView.swift in Sources */,
+				A2CB794528B4C2A0005251A3 /* ElgatoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB794D28B4C2A3005251A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB795628B4C2A3005251A3 /* ElgatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB795728B4C2A3005251A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB796228B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift in Sources */,
+				A2CB796028B4C2A3005251A3 /* ElgatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2CB795328B4C2A3005251A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CB794028B4C2A0005251A3 /* Elgato */;
+			targetProxy = A2CB795228B4C2A3005251A3 /* PBXContainerItemProxy */;
+		};
+		A2CB795D28B4C2A3005251A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CB794028B4C2A0005251A3 /* Elgato */;
+			targetProxy = A2CB795C28B4C2A3005251A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2CB796328B4C2A3005251A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2CB796428B4C2A3005251A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CB796628B4C2A3005251A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elgato/Preview Content\"";
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.Elgato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CB796728B4C2A3005251A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elgato/Preview Content\"";
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.Elgato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2CB796928B4C2A3005251A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.ElgatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elgato.app/Elgato";
+			};
+			name = Debug;
+		};
+		A2CB796A28B4C2A3005251A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.ElgatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elgato.app/Elgato";
+			};
+			name = Release;
+		};
+		A2CB796C28B4C2A3005251A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.ElgatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elgato;
+			};
+			name = Debug;
+		};
+		A2CB796D28B4C2A3005251A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGM86HHLZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vercetti.com.ElgatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elgato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CB793C28B4C2A0005251A3 /* Build configuration list for PBXProject "Elgato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CB796328B4C2A3005251A3 /* Debug */,
+				A2CB796428B4C2A3005251A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CB796528B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "Elgato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CB796628B4C2A3005251A3 /* Debug */,
+				A2CB796728B4C2A3005251A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CB796828B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "ElgatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CB796928B4C2A3005251A3 /* Debug */,
+				A2CB796A28B4C2A3005251A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CB796B28B4C2A3005251A3 /* Build configuration list for PBXNativeTarget "ElgatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CB796C28B4C2A3005251A3 /* Debug */,
+				A2CB796D28B4C2A3005251A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CB793928B4C2A0005251A3 /* Project object */;
+}
