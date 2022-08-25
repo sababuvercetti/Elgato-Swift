@@ -9,6 +9,6 @@ import Foundation
 
 
 class RestClient {
-    var baseUrl:String="https://api.thecatapi.com/v1/"
+    static var baseUrl:String="https://api.thecatapi.com/v1"
     
 }
