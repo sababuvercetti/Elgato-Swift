@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct BreedDetailView: View {
+    var catBreed: CatBreed
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct BreedDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        BreedDetailView()
+        VStack{
+            AsyncImage(url: URL(string: catBreed.image!.url)) { image in
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            
+                    } placeholder: {
+                        Color.gray
+                    }
+                    .frame(width: 250, height: 250)
+            
+            
+            Text(catBreed.description)
+        }.navigationTitle(catBreed.name)
     }
 }
