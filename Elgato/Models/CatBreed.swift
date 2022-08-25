@@ -11,4 +11,10 @@ import Foundation
 struct CatBreed : Hashable,Codable{
     let name: String
     let description: String
+    let image: CatImage?
+}
+
+
+struct CatImage : Hashable, Codable{
+    let url: String
 }
