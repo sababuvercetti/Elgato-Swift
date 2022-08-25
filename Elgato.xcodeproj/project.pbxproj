@@ -14,6 +14,11 @@
 		A2CB795628B4C2A3005251A3 /* ElgatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB795528B4C2A3005251A3 /* ElgatoTests.swift */; };
 		A2CB796028B4C2A3005251A3 /* ElgatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB795F28B4C2A3005251A3 /* ElgatoUITests.swift */; };
 		A2CB796228B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */; };
+		A2CB797028B4C85D005251A3 /* BreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB796F28B4C85D005251A3 /* BreedsView.swift */; };
+		A2CB797228B4C8A2005251A3 /* BreedsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB797128B4C8A2005251A3 /* BreedsViewModel.swift */; };
+		A2CB797528B4C8CD005251A3 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB797428B4C8CD005251A3 /* RestClient.swift */; };
+		A2CB797B28B4CC5A005251A3 /* CatBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB797A28B4CC5A005251A3 /* CatBreed.swift */; };
+		A2CB797D28B4DB99005251A3 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB797C28B4DB99005251A3 /* BreedDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		A2CB795B28B4C2A3005251A3 /* ElgatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElgatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CB795F28B4C2A3005251A3 /* ElgatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoUITests.swift; sourceTree = "<group>"; };
 		A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElgatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2CB796F28B4C85D005251A3 /* BreedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsView.swift; sourceTree = "<group>"; };
+		A2CB797128B4C8A2005251A3 /* BreedsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsViewModel.swift; sourceTree = "<group>"; };
+		A2CB797428B4C8CD005251A3 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		A2CB797A28B4CC5A005251A3 /* CatBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreed.swift; sourceTree = "<group>"; };
+		A2CB797C28B4DB99005251A3 /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,9 @@
 		A2CB794328B4C2A0005251A3 /* Elgato */ = {
 			isa = PBXGroup;
 			children = (
+				A2CB797628B4CBFD005251A3 /* Models */,
+				A2CB797328B4C8BC005251A3 /* Utilities */,
+				A2CB796E28B4C81F005251A3 /* Breeds */,
 				A2CB794428B4C2A0005251A3 /* ElgatoApp.swift */,
 				A2CB794628B4C2A0005251A3 /* ContentView.swift */,
 				A2CB794828B4C2A3005251A3 /* Assets.xcassets */,
@@ -125,6 +138,32 @@
 				A2CB796128B4C2A3005251A3 /* ElgatoUITestsLaunchTests.swift */,
 			);
 			path = ElgatoUITests;
+			sourceTree = "<group>";
+		};
+		A2CB796E28B4C81F005251A3 /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB796F28B4C85D005251A3 /* BreedsView.swift */,
+				A2CB797128B4C8A2005251A3 /* BreedsViewModel.swift */,
+				A2CB797C28B4DB99005251A3 /* BreedDetailView.swift */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		A2CB797328B4C8BC005251A3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB797428B4C8CD005251A3 /* RestClient.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A2CB797628B4CBFD005251A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB797A28B4CC5A005251A3 /* CatBreed.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CB794728B4C2A0005251A3 /* ContentView.swift in Sources */,
+				A2CB797228B4C8A2005251A3 /* BreedsViewModel.swift in Sources */,
+				A2CB797028B4C85D005251A3 /* BreedsView.swift in Sources */,
+				A2CB797D28B4DB99005251A3 /* BreedDetailView.swift in Sources */,
+				A2CB797B28B4CC5A005251A3 /* CatBreed.swift in Sources */,
+				A2CB797528B4C8CD005251A3 /* RestClient.swift in Sources */,
 				A2CB794528B4C2A0005251A3 /* ElgatoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
